@@ -33,7 +33,7 @@
     
             if ($stmt->execute()) {
                 echo "Dữ liệu đã được thêm vào cơ sở dữ liệu thành công!";
-                $new_location = 'http://localhost:8080/LOGIN_CSDL/admin_page.php';
+                $new_location = 'http://localhost:8080/login/admin_page.php';
                 header('Location: ' . $new_location);
                 exit();
             } else {
@@ -43,9 +43,9 @@
 
             $stmt->close();
             $conn->close();
-        } else {
-            echo "Lỗi khi di chuyển file ảnh.";
-        }
+        } else 
+        
+        
     }
     ?>
 

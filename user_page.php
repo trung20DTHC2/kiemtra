@@ -74,8 +74,6 @@ if (!isset($_SESSION['user_name'])) {
       echo "<tr>";
       echo "<td>" . $row["Ma_NV"] . "</td>";
       echo "<td>" . $row["Ten_NV"] . "</td>";
-      // Hiển thị hình ảnh từ đường dẫn lưu trong cột 'Phai'
-      echo '<td><img src="uploads/' . $row['Phai'] . '" alt="' . $row['Ten_NV'] . '" width="100"></td>';
       echo "<td>" . $row["Noi_Sinh"] . "</td>";
       echo "<td>" . $row["Ma_Phong"] . "</td>";
       echo "<td>" . $row["Luong"] . "</td>";
